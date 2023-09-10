@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Geral</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .topo{
+            background-color:gray ;
+            padding: 20px;
+            text-align: center;
+        }
+        body{
+            margin: 0;
+        }
+        .menu{
+            background-color: aqua;
+            overflow: hidden;
+        }
+        .menu a{
+            color: black;
+            padding: 14px 16px;
+            float: left;
+            display: block;
+            text-decoration:none;
+        }
+        .coluna-50{
+            
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+        #form{
+            width: 1px;
+        }
+
+      
+
+
+
+    </style>
+</head>
+<body>
+    <header class="topo">
+        <h1>CONTATO</h1>
+        <img src="img/contato.png" width="800px" alt="">
+        
+        <p><strong>ENTRE CONTATO CONOSCO !!</strong> </p></strong> 
+        <hr>
+    </header>
+
+    <!--manu do site-->
+
+    <nav class="menu">
+        <a href="atendimento.html" target="_self">Atendimento</a>
+        <a href="contato.html" target="_self">contato</a>
+        <a href="sobre.html" target="_self">Sobre</a>
+        <a href="index.html" target="_self">Home</a>
+    </nav>
+
+
+    <!--iframe-->
+
+    <section class="coluna-50">
+        
+        <h1>Endereco</h1>
+
+        <h2><i>Av. São Paulo, 154 – Socorro
+          Mogi das Cruzes – SP</i></h2>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.399029644707!2d-46.1765312!3d-23.518146400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdd836bd8ff13f%3A0x9dd073f9e71df3d7!2zQ2zDrW5pY2EgU8OjbyBQYXVsbw!5e0!3m2!1spt-BR!2sbr!4v1694381581641!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+          
+    </section>
+
+    <section class="coluna-50">
+        <h2>Entre em contato !!</h2>
+        <form id="form">
+            <p>Nome<input type="text"></p>
+            <p>Telefone<input type="number"></p>
+            <p>Email<input type="text"></p>
+            <p>Endereco<input type="text"></p>
+            <p><input type="submit">Enviar</p>
+        </form>
+    </section>
+
+ 
+    
+
+</body>
+</html>
